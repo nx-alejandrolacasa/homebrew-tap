@@ -1,6 +1,6 @@
 cask "insert" do
-  version "0.14.3"
-  sha256 "f83dd4ba97b4bcac1932c5e6798ed1d612738d5630729e3375ebc4befbcffda4"
+  version "0.14.4"
+  sha256 "b898d36194500ccade8019369c3248b3614df7c968ed9205e98c13fe4a03d44e"
 
   url "https://github.com/nx-alejandrolacasa/insert/releases/download/v#{version}/Insert-#{version}.dmg"
   name "Insert"
