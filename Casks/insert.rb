@@ -7,7 +7,7 @@ cask "insert" do
   desc "Calm, native macOS app for projects, notes and tasks — stored as plain Markdown"
   homepage "https://github.com/nx-alejandrolacasa/insert"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Insert.app"
 

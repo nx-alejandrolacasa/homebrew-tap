@@ -8,7 +8,7 @@ cask "prtscn" do
   homepage "https://github.com/nx-alejandrolacasa/prtscn"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "PrtScn.app"
 
