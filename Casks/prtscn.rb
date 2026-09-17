@@ -1,6 +1,6 @@
 cask "prtscn" do
-  version "0.22.0"
-  sha256 "23b3f678826930e6b3c46e5f23d6a2eee3a63070f99566f9e5553f79ee5d9ae5"
+  version "0.22.1"
+  sha256 "14d7ca4fa6320b139cf875719cf032d186e6b8d5ed058fc5d5ee203087985f40"
 
   url "https://github.com/nx-alejandrolacasa/prtscn/releases/download/v#{version}/PrtScn-#{version}.dmg"
   name "PrtScn"
