@@ -14,9 +14,8 @@ cask "prtscn" do
 
   # The app is signed with a stable self-signed certificate, not notarized;
   # without this Gatekeeper refuses to launch it.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/PrtScn.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/PrtScn.app"]
   end
 
   zap trash: [
